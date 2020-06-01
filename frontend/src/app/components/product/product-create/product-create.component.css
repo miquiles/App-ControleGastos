@@ -9,3 +9,12 @@ button {
     margin-right: 10px;
     margin-top: 20px;
 }
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+h1{
+    font-size: 15px;
+    
+}

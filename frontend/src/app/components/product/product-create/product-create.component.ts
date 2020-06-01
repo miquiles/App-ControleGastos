@@ -13,8 +13,8 @@ export class ProductCreateComponent implements OnInit {
 
 
   product: Product = {
-    nome:'',
-    preco: null
+    gasto:'',
+    valor: null
     
   }
   
@@ -30,7 +30,7 @@ export class ProductCreateComponent implements OnInit {
 
     this.ProductService.create(this.product).subscribe(() =>{
 
-      this.ProductService.showMessage('Produto salvo com sucesso!!')
+      this.ProductService.showMessage(`Produto salvo ${this.product.gasto} com sucesso!!`)
 
       this.router.navigate(['/products'])
     })

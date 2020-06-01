@@ -1,16 +1,26 @@
 <mat-card>
 
-    <mat-card-title> Novo Produto</mat-card-title>
+    <mat-card-title> Novo Registro</mat-card-title>
     <form>
 
         <mat-form-field>
-            <input matInput placeholder="Nome" [(ngModel)]="product.nome" name="nome"> 
+            <input matInput placeholder="Gasto" [(ngModel)]="product.gasto" name="gasto"> 
         </mat-form-field>
 
         
         <mat-form-field>
-            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.preco" name="preco"> 
+            <input matInput placeholder="Valor (R$)" [(ngModel)]="product.valor" name="valor"> 
         </mat-form-field>
+
+        <div>
+           
+            <h1>Gastos Fixos</h1>
+            <mat-radio-group aria-label="Select an option">
+                <mat-radio-button value="1">Sim</mat-radio-button>
+                <mat-radio-button value="2">Não</mat-radio-button>
+              </mat-radio-group>
+    
+           </div>
 
 
     </form>

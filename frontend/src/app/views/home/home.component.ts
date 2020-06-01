@@ -1,3 +1,7 @@
+import { ProductService } from './../../components/product/product.service';
+import { Product } from './../../components/product/product.model';
+
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +10,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  products: Product[];
+  displayedColumns = ['id','gasto', 'valor', 'acoes']
+ 
+  
+ 
+  constructor(private productService: ProductService) { }
 
-  constructor() { }
+  ngOnInit(): void 
+  
+  {
 
-  ngOnInit(): void {
+    this.productService.read().subscribe(products =>{
+      this.products = products
+      console.log(products)
+
+
+    })
+
   }
 
 }

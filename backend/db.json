@@ -2,33 +2,23 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Samsung A20",
-      "preco": 2000.22
+      "gasto": "Samsung A20",
+      "valor": 2000.22
     },
     {
       "id": 2,
-      "nome": "Iphone XR",
-      "preco": "6000.9"
+      "gasto": "Ifood",
+      "valor": "50.90"
     },
     {
-      "id": 3,
-      "nome": "Xiomi Mi9",
-      "preco": 990.99
+      "gasto": "Rappi",
+      "valor": "90",
+      "id": 4
     },
     {
-      "id": 4,
-      "nome": "Iphone 6",
-      "preco": 850.5
-    },
-    {
-      "nome": "produto teste",
-      "preco": 125.88,
+      "gasto": "Para aparecer na home",
+      "valor": "0",
       "id": 5
-    },
-    {
-      "nome": "notebook",
-      "preco": "3333.44",
-      "id": 8
     }
   ]
 }

@@ -1,17 +1,52 @@
-<mat-card class="home mat-elevation-z5">
 
-    <mat-card-title class="title">Bem vindo!</mat-card-title>
+<div class="fixo">
+<mat-card class="boasvindas mat-elevation-z5">
+
+    <mat-card-title class="title">Bem vindo! usuarioLogado.nome</mat-card-title>
     <mat-card-subtitle class="subtitle">
-        Sistema para exemplificar a construção de um cadastro em Angular9
+        Aplicativo para controle de finanças. Poderás cadastrar todos os teus gastos e comparar como o orçamento do mês.
     </mat-card-subtitle>
 
-
-
+    
 
 
     <ul>
 
-        <li *myFor="let n em [1,2,3]" > {{ n }}</li>
+        <li *myFor="let n em " > {{ n }}</li>
 
     </ul>
 </mat-card>
+
+</div>
+
+<div class="registros">
+
+
+<mat-card class="registrosGastos mat-elevation-z10" >
+
+    <mat-card-title class="title">Gasto</mat-card-title>
+    <mat-card-subtitle class="subtitle">
+       Aqui terá os gastos mais recentes.
+
+     
+     
+           </mat-card-subtitle>
+
+        
+
+           
+
+
+    <ul>
+
+        <li *ngFor="let lista of products" ><h1>{{ lista.gasto }}</h1> <h1>{{lista.valor}}</h1> </li>
+
+    </ul>
+</mat-card>
+
+   
+
+
+</div>
+
+  

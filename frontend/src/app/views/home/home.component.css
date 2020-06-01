@@ -1,12 +1,35 @@
-.home .title{
+
+.fixo {
+   margin-bottom: 50px;
+}
+.registros{
+    margin-bottom: 15px;
+}
+
+.boasvindas .title{
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
 }
 
 
-.home .subtitle {
+.boasvindas .subtitle {
 
     font-size: 1.1rem;
     font-weight: 200;
 }
+
+
+.registrosGastos .title{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+.registrosGastos .subtitle {
+
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
