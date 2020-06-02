@@ -8,17 +8,12 @@
     {
       "id": 2,
       "gasto": "Ifood",
-      "valor": "50.90"
+      "valor": 50.9
     },
     {
       "gasto": "Rappi",
-      "valor": "90",
+      "valor": 90,
       "id": 4
-    },
-    {
-      "gasto": "Para aparecer na home",
-      "valor": "0",
-      "id": 5
     }
   ]
 }

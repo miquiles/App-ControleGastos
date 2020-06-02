@@ -15,6 +15,8 @@
         <li *myFor="let n em " > {{ n }}</li>
 
     </ul>
+
+
 </mat-card>
 
 </div>
@@ -23,6 +25,7 @@
 
 
 <mat-card class="registrosGastos mat-elevation-z10" >
+    
 
     <mat-card-title class="title">Gasto</mat-card-title>
     <mat-card-subtitle class="subtitle">
@@ -40,13 +43,30 @@
     <ul>
 
         <li *ngFor="let lista of products" ><h1>{{ lista.gasto }}</h1> <h1>{{lista.valor}}</h1> </li>
-
+       
     </ul>
+
+    <a href="" class="edit">
+        <i class="material-icons ">
+            edit
+
+        </i>
+
+    </a>
+
+    <a href="" class="delete">
+        <i class="material-icons ">
+            delete
+
+        </i>
+
+    </a>
 </mat-card>
 
    
 
 
 </div>
+
 
   
